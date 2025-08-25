@@ -1,0 +1,22 @@
+import java.util.*;
+class Gamingclass{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the move: ");
+        String M =sc.nextLine();
+        switch(M){
+        case"rock":
+            System.out.println("paper");
+            break;
+        case "scissors":
+         System.out.println("rock");
+         break;
+        case "paper":
+        System.out.println("scissors");
+        break;
+        default:
+        System.out.println("invalid move ");
+        break;
+        }
+    }
+}
